@@ -1,0 +1,10 @@
+class FirstProgram{
+	public static void main(String[] args) {
+		System.out.println("StudentId: 2413110731"+
+				   "\nStudentName: Chayin Namchan"+
+				   "\nTopic: GitHub"+
+			           "\nDate: 11/20/2024");
+		JOptionPane.ShowMessageDialog(null,
+					      "I love Java so much",
+					      "I lied",
+					      JOptionPane.Warning_Message);
