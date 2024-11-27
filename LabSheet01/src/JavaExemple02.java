@@ -3,21 +3,24 @@ public class JavaExemple02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//show and receive Dialog box
-		String productName =JOptionPane.showInputDialog("Input Product Name: ");
-		String strProductUnit = JOptionPane.showInputDialog("Input Product Unit: ");
-		int productUnit = Integer.parseInt(strProductUnit);
-		
-		double productPrice = Double.parseDouble(JOptionPane.showInputDialog(""
-				+ "Input Price per Unit"));
-		
-		double TotalPriceofProduct = productUnit * productPrice;
-		double TotalwithVat = TotalPriceofProduct * 1.07;
-		String frmtotalPriceofProduct = (String.format"%,.2f",TotalPriceofProduct);
-		string frmtotalPriceofProduct = String.Format
-		//display to dialog box
-		JOptionPane.showInputDialog(null, "Total Price is: " + TotalPriceofProduct + " baht." +"\nAdd VAT7% is " +
-		TotalwithVat + " baht.");
+		//แสดงผลและรับข้อมูลชื่อสินค้าทาง Dialog box
+				String productName = JOptionPane.showInputDialog("Input Product Name:");
+				//แสดงผลและรับข้อมูลจำนวนสินค้าทาง Dialog box
+				String strProductUnit = JOptionPane.showInputDialog("Input Product Unit:");
+				int productUnit = Integer.parseInt(strProductUnit);
+				//แสดงผลและรับข้อมูลราคาสินค้าทาง Dialog box
+				double productPrice = Double.parseDouble(JOptionPane.showInputDialog(""
+						+ "Input Price per Unit:"));
+				
+				double totalPriceofProduct = productUnit *productPrice;
+				//คำนวณภาษีเพิ่ม 7%
+				double totalwithVat = totalPriceofProduct * 1.07;
+				String frmtotalPriceofProduct = String.format("%,.2f",totalPriceofProduct);
+				String frmtotalwithVat = String.format("%,.2f",totalwithVat);
+				//สั่งแสดงผลทาง Dialog box
+				JOptionPane.showMessageDialog(null, 
+						"Total Price is "+frmtotalPriceofProduct +" baht."+
+				        "\nAdd VAT7% is "+frmtotalwithVat+ " baht.");
 		
 	
 		
