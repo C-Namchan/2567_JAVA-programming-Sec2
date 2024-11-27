@@ -1,4 +1,4 @@
 StudentId:2413110731
 studentName:Chayin Namchan
-Topic:GitHub
-Date: 11/20/2024
+Topic:Display Labsheet 01
+Date: 11/27/2024
