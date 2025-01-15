@@ -1,4 +1,4 @@
 StudentId:2413110731
 studentName:Chayin Namchan
-Topic:Labsheet 04 Method
-Date: 12/18/2024
+Topic:Labsheet 06-> Class and Object
+Date: 01/15/2025
