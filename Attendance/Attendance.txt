@@ -1,4 +1,4 @@
 StudentId:2413110731
 studentName:Chayin Namchan
-Topic:Labsheet 07-> LabSheet07_Ecapsulation
-Date: 01/22/25
+Topic:Labsheet 08-> LabSheet08_Array Object
+Date: 01/29/25
